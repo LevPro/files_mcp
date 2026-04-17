@@ -62,9 +62,9 @@ touch test.txt, file1.js, subdir/another.txt
 | `search_files` | Find matching file patterns | Glob pattern search |
 | `change_permissions` | Set file permissions (octal) | Requires root on some systems |
 | `change_owner` | Change UID/GID owner | Unix-only feature |
-| `view_permissions` (file.ts) | Single file/dir permissions with UID/GID | `{ "path": "/test.txt", "modeOctal": "0644", ... }` |
-| `view_permissions` (fs.ts) | Detailed symbolic + octal permissions | `{ "symbolic": "-rw-r--r--", "octal": "644", ... }` |
-| `list_permissions_recursive` (fs.ts) | Tree view of all file/directory permissions | `[0755] 📁 my-dir [0644] 📄 test.txt` |
+| `view_permissions` | Single file/dir permissions with UID/GID | `{ "path": "/test.txt", "modeOctal": "0644", ... }` |
+| `view_permissions` | Detailed symbolic + octal permissions | `{ "symbolic": "-rw-r--r--", "octal": "644", ... }` |
+| `list_permissions_recursive` | Tree view of all file/directory permissions | `[0755] 📁 my-dir [0644] 📄 test.txt` |
 
 ## 📦 Docker Deployment
 
